@@ -24,11 +24,11 @@ there is <img alt="$i$" src="svgs/77a3b857d53fb44e33b53e4c8b68351a.svg" align="m
 
 The formulation for <img alt="$t=T=5$" src="svgs/7844a64f489e558876104e0124ca7b62.svg" align="middle" width="69.87987929999998pt" height="22.465723500000017pt"/> (the end of month 4) is then simply
 
-<img alt="$f_T(i) = 0.5i$" src="svgs/a1a457847845618ee817863946a09232.svg" align="middle" width="85.43773919999998pt" height="24.65753399999998pt"/>
+<img alt="$f_T(i) \equiv 0$" src="svgs/823d7c71954bafb2c100e35bb182de1e.svg" align="middle" width="66.98907929999999pt" height="24.65753399999998pt"/>
 
 For <img alt="$t &lt; T$" src="svgs/04fd676c61dc97e52185a18b1445e7f3.svg" align="middle" width="39.74304179999999pt" height="22.465723500000017pt"/> we formulate the recursion as
 
-<img alt="$f_t(i)=\min\limits_{\substack{x_t\leq 5 \\ i+x_t\geq d_t}}\left\{ 0.5i + \delta\left(x_t\right) + f_{t+1}(i+x_t-d_t)\right\}$" src="svgs/34cd5978c563c2485a50d0065d6967c4.svg" align="middle" width="347.72625194999995pt" height="49.12614960000002pt"/>
+<img alt="$f_t(i)=\min\limits_{\substack{x_t\leq 5 \\ i+x_t\geq d_t}}\left\{ \delta\left(x_t\right) + 0.5\left(i+x_t-d_t\right)+ f_{t+1}(i+x_t-d_t)\right\}$" src="svgs/67881c82b1765c88c90084f792a36f69.svg" align="middle" width="432.95999175pt" height="49.12614960000002pt"/>
 
 where 
 

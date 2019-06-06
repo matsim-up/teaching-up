@@ -24,11 +24,11 @@ there is $i$ units in inventory at the start of month $t$.
 
 The formulation for $t=T=5$ (the end of month 4) is then simply
 
-$f_T(i) = 0.5i$
+$f_T(i) \equiv 0$
 
 For $t < T$ we formulate the recursion as
 
-$f_t(i)=\min\limits_{\substack{x_t\leq 5 \\ i+x_t\geq d_t}}\left\{ 0.5i + \delta\left(x_t\right) + f_{t+1}(i+x_t-d_t)\right\}$
+$f_t(i)=\min\limits_{\substack{x_t\leq 5 \\ i+x_t\geq d_t}}\left\{ \delta\left(x_t\right) + 0.5\left(i+x_t-d_t\right)+ f_{t+1}(i+x_t-d_t)\right\}$
 
 where 
 
