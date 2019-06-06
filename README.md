@@ -1,2 +1,3 @@
-# teaching-up
-Code related to teaching activities
+# Teaching
+
+This repository deals with various Java code snippets related to teaching activities.
