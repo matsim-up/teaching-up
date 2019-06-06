@@ -37,3 +37,6 @@ $\delta\left(x_t\right) =
 		3 + x_t & \text{if } x_t > 0 \\ 
 		0 & \text{otherwise.} 
 	\end{cases}$
+
+We start calculating at $f_T(i)$ for $i\in\{0,\ldots,4\}$ and work our way back
+to $f_1(0)$.
