@@ -28,12 +28,12 @@ $f_T(i) = 0.5i$
 
 For $t < T$ we formulate the recursion as
 
-$f_t(i)=\min\limits_{\substack{x_t\leq 5 \\ i+x_t\geq d_t}}\left\{ 0.5i + 3\delta\left(x_t\right) + x_t + f_{t+1}(i+x_t-d_t)\right\}$
+$f_t(i)=\min\limits_{\substack{x_t\leq 5 \\ i+x_t\geq d_t}}\left\{ 0.5i + \delta\left(x_t\right) + f_{t+1}(i+x_t-d_t)\right\}$
 
 where 
 
 $\delta\left(x_t\right) = 
 	\begin{cases} 
-		1 & \text{if } x_t > 0 \\ 
+		3 + x_t & \text{if } x_t > 0 \\ 
 		0 & \text{otherwise.} 
 	\end{cases}$
