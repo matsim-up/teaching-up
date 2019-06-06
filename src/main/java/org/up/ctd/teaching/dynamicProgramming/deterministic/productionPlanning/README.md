@@ -28,4 +28,4 @@ The formulation for <img alt="$t=T=5$" src="svgs/7844a64f489e558876104e0124ca7b6
 
 For <img alt="$t &lt; T$" src="svgs/04fd676c61dc97e52185a18b1445e7f3.svg" align="middle" width="39.74304179999999pt" height="22.465723500000017pt"/> we formulate the recursion as
 
-<img alt="$f_t(i)=\min\limits_{\shortstack{x_t\leq 5\\i+x_t\geq d_t}}\left\{ 3\delta\left(x_t\right) + f_{t+1}(i+x_t-d_t)\right\}$" src="svgs/0ea3cd0a2f9833af9c6da2413f64ce60.svg" align="middle" width="327.0396359999999pt" height="69.22359840000001pt"/>
+<img alt="$f_t(i)=\min\limits_{x_t\leq 5\\i+x_t\geq d_t}\left\{ 3\delta\left(x_t\right) + f_{t+1}(i+x_t-d_t)\right\}$" src="svgs/9b603c657d3ff435efb8c58c702775b8.svg" align="middle" width="338.9220516pt" height="25.729436700000015pt"/>
