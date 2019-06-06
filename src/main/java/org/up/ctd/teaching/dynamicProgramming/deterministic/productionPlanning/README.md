@@ -20,7 +20,7 @@ of the first month.
 We can define the recursion as
 
 <img src="./svgs/3f224ddc86b2f8b8810eaeb575ba0a15.svg" align=middle width=49.63586759999998pt height=30.137058600000014pt/> the minimum costs for months <img src="./svgs/4f8c1aa08e5de7dbff18dfa5c791bca4.svg" align=middle width=84.01812704999998pt height=21.18721440000001pt/> given that
-there is <img src="svgs/77a3b857d53fb44e33b53e4c8b68351a.svg?invert_in_darkmode" align=middle width=5.663225699999989pt height=21.68300969999999pt/> units in inventory at the start of month <img src="svgs/4f4f4e395762a3af4575de74c019ebb5.svg" align=middle width=5.936097749999991pt height=20.221802699999984pt/>.
+there is <img src="svgs/77a3b857d53fb44e33b53e4c8b68351a.svg" align=middle width=5.663225699999989pt height=21.68300969999999pt/> units in inventory at the start of month <img src="svgs/4f4f4e395762a3af4575de74c019ebb5.svg" align=middle width=5.936097749999991pt height=20.221802699999984pt/>.
 
 The formulation for <img src="svgs/7844a64f489e558876104e0124ca7b62.svg" align=middle width=69.87987929999998pt height=22.465723500000017pt/> (the end of month 4) is then simply
 
