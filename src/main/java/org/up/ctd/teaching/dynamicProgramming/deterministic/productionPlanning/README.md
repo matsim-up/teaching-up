@@ -33,3 +33,6 @@ For <img alt="$t &lt; T$" src="svgs/04fd676c61dc97e52185a18b1445e7f3.svg" align=
 where 
 
 <img alt="$\delta\left(x_t\right) = &#10;&#9;\begin{cases} &#10;&#9;&#9;3 + x_t &amp; \text{if } x_t &gt; 0 \\ &#10;&#9;&#9;0 &amp; \text{otherwise.} &#10;&#9;\end{cases}$" src="svgs/8a70583a2c5cc463bfb8a1e26d5d4446.svg" align="middle" width="206.01025664999997pt" height="57.53473439999999pt"/>
+
+We start calculating at <img alt="$f_T(i)$" src="svgs/357f29204b6cec05a59511759c3dfe57.svg" align="middle" width="36.85224014999999pt" height="24.65753399999998pt"/> for <img alt="$i\in\{0,\ldots,4\}$" src="svgs/2e0730dcb4d8a70895b55df5d1f9abc3.svg" align="middle" width="95.16061829999998pt" height="24.65753399999998pt"/> and work our way back
+to <img alt="$f_1(0)$" src="svgs/01f6c16126a21015ac0c5c098348e8bb.svg" align="middle" width="36.42708959999999pt" height="24.65753399999998pt"/>.
