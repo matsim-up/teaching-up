@@ -25,3 +25,7 @@ there is <img alt="$i$" src="svgs/77a3b857d53fb44e33b53e4c8b68351a.svg" align="m
 The formulation for <img alt="$t=T=5$" src="svgs/7844a64f489e558876104e0124ca7b62.svg" align="middle" width="69.87987929999998pt" height="22.465723500000017pt"/> (the end of month 4) is then simply
 
 <img alt="$f_T(i)\equiv 0$" src="svgs/9dbca326beaa3a5b07042406ae6f0084.svg" align="middle" width="66.98907929999999pt" height="24.65753399999998pt"/>
+
+For <img alt="$t &lt; T$" src="svgs/04fd676c61dc97e52185a18b1445e7f3.svg" align="middle" width="39.74304179999999pt" height="22.465723500000017pt"/> we formulate the recursion as
+
+<img alt="$f_t(i)=\min\limits_{\shortstack{x_t\leq 5\\i+x_t\geq d_t}}\left\{ 3\delta\left(x_t\right) + f_{t+1}(i+x_t-d_t)\right\}$" src="svgs/0ea3cd0a2f9833af9c6da2413f64ce60.svg" align="middle" width="327.0396359999999pt" height="69.22359840000001pt"/>
