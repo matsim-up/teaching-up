@@ -7,7 +7,8 @@ A company knows that the demand for its product during each of the next four
 months will be as follows: month one, 1 unit; month two, 3 units; month three, 
 2 units; and month four, 4 units. At the beginning of each month, the company 
 must determine how many units should be produced during the current month. 
-During a month in which any units are produced, a setup cost of <img src="svgs/ffefe523cb7fb7d0027bc3d9137bacda.svg?invert_in_darkmode" align=middle width=354.16396785pt height=22.831056599999986pt/>1 for every unit produced. At the end 
+During a month in which any units are produced, a setup cost of \$3 are incurred. 
+In addition, there is a variable cost of \$1 for every unit produced. At the end 
 of each month a holding cost of 50c per unit on hand is incurred. Capacity 
 limitations allow a maximum of 5 units to be produced during each month. The 
 size of the company's warehouse restricts ending inventory for each month to at 
@@ -18,10 +19,8 @@ of the first month.
 
 We can define the recursion as
 
-<img src="svgs/27c94440bc8e96a968c0494742eed5dc.svg?invert_in_darkmode" align=middle width=63.334413449999985pt height=30.137058600000014pt/> the minimum costs for months <img src="svgs/7edd2f0291755879500154d495140e80.svg?invert_in_darkmode" align=middle width=93.15057344999998pt height=22.831056599999986pt/> given that
-there is <img src="svgs/db08780ad2ba9746939e86b175ce5161.svg?invert_in_darkmode" align=middle width=14.79567374999999pt height=22.831056599999986pt/> units in inventory at the start of month <img src="svgs/2c81564e7f8fed1d9540fdb33c3889eb.svg?invert_in_darkmode" align=middle width=15.068545799999992pt height=22.831056599999986pt/>.
+<img src="svgs/3f224ddc86b2f8b8810eaeb575ba0a15.svg?invert_in_darkmode" align=middle width=49.63586759999998pt height=30.137058600000014pt/> the minimum costs for months <img src="svgs/4f8c1aa08e5de7dbff18dfa5c791bca4.svg?invert_in_darkmode" align=middle width=84.01812704999998pt height=21.18721440000001pt/> given that
+there is <img src="svgs/77a3b857d53fb44e33b53e4c8b68351a.svg?invert_in_darkmode" align=middle width=5.663225699999989pt height=21.68300969999999pt/> units in inventory at the start of month <img src="svgs/4f4f4e395762a3af4575de74c019ebb5.svg?invert_in_darkmode" align=middle width=5.936097749999991pt height=20.221802699999984pt/>.
 
 The formulation for <img src="svgs/7844a64f489e558876104e0124ca7b62.svg?invert_in_darkmode" align=middle width=69.87987929999998pt height=22.465723500000017pt/> (the end of month 4) is then simply
-```math
-f_T(i)\equiv 0
-```
+<p align="center"><img src="svgs/f205abcf6ad0b0cf3a17770ff802b4ca.svg?invert_in_darkmode" align=middle width=66.9890793pt height=16.438356pt/></p>
